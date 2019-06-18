@@ -1,2 +1,2 @@
 # KattisProblems
-A list of my solutions to Kattis Problems
+A list of solutions to Kattis Problems
