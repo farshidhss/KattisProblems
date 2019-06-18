@@ -37,7 +37,8 @@ public class InputReaderMin implements AutoCloseable {
         int ret = 0;
         do {
             if (c == 10) {
-                throw new IOException();
+                //                throw new IOException();
+                return 0;
             }
         } while ((c = read()) != '-');
         while ((c = read()) >= '0' && c <= '9') {

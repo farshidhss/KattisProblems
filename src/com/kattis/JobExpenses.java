@@ -14,11 +14,7 @@ public class JobExpenses {
         int items;
         items = io.nextInt();
         for (int i = 0; i < items; i++) {
-            try {
-                exp = io.nextNegativeInt();
-            } catch (IOException e) {
-                break;
-            }
+            exp = io.nextNegativeInt();
             sum += exp;
         }
         o.println(-sum);
